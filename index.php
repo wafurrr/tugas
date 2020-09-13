@@ -1,6 +1,6 @@
 <?php 
 
-echo "Hewan-Hewan";
+echo "Hewan-Hewan <br>";
 
 class Kucing{
 	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
@@ -63,3 +63,24 @@ echo " Bisa terbang: $Angsa->bisa_terbang";
 echo "<br>";
 echo " Suara: $Angsa->suara";
 echo "<hr>"; 
+
+class Elang{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+
+}
+
+$Elang = new Elang;
+$Elang->nama = "Garit";
+$Elang->jumlah_kaki = "2";
+$Elang->bisa_terbang = "iya";
+$Elang->suara = "Miiiiiip";
+
+echo "Elang <br>";
+echo " Nama: $Elang->nama";
+echo "<br>";
+echo " Jumlah kaki: $Elang->jumlah_kaki";
+echo "<br>";
+echo " Bisa terbang: $Elang->bisa_terbang";
+echo "<br>";
+echo " Suara: $Elang->suara";
+echo "<hr>";
