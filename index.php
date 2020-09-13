@@ -42,3 +42,24 @@ echo " Bisa terbang: $Anjing->bisa_terbang";
 echo "<br>";
 echo " Suara: $Anjing->suara";
 echo "<hr>";
+
+class Angsa{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+
+}
+
+$Angsa = new Angsa;
+$Angsa->nama = "Miya";
+$Angsa->jumlah_kaki = "2";
+$Angsa->bisa_terbang = "tidak";
+$Angsa->suara = "Kwaaak Kwaaak";
+
+echo "Angsa <br>";
+echo " Nama: $Angsa->nama";
+echo "<br>";
+echo " Jumlah kaki: $Angsa->jumlah_kaki";
+echo "<br>";
+echo " Bisa terbang: $Angsa->bisa_terbang";
+echo "<br>";
+echo " Suara: $Angsa->suara";
+echo "<hr>"; 
